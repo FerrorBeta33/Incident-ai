@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "npm run db:migrate && npm run db:seed",
     "dev": "next dev --turbopack",
+    "prebuild": "npm run db:migrate && npm run db:seed",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",

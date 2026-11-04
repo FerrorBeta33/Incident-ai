@@ -50,6 +50,9 @@ isolate-*.log
 *.db-wal
 *.db-shm
 
+# Revolte runtime state
+.revolte/runtime/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
